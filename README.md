@@ -10,10 +10,10 @@ Powerful but tastefully minimal zsh configuration.
 paru -S zsh neovim eza bat fd fzf zoxide starship ripgrep
 ```
 
-### Ubuntu
+### Fedora
 
 ```sh
-sudo apt install zsh neovim eza bat fd-find fzf ripgrep
+sudo dnf install zsh neovim eza bat fd-find fzf ripgrep
 # install zoxide and starship separately
 curl -sSfL https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | sh
 curl -sS https://starship.rs/install.sh | sh
